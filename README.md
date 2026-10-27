@@ -34,15 +34,15 @@ This starbie has a display with a sprite. The sprite has 3 values: joy, energy, 
 4. Building + Uploading Firmware. I haven't gotten to this step yet, but I am pretty sure that you connect a USB cable from the ESP-32 to your computer. Then, in the Arduino IDE, you can verify the code with the check button, and then upload it with the arrow pointing right button. As for assembling the PCB, it will probably have some soldering involved, which I don't know how to do yet because I am an absolute beginner at PCBs. 
 
 ## BOM
-[BOM.csv](https://github.com/user-attachments/files/33997758/BOM.csv)
-
-Part,	Qty,	Unit,Total,	Vendor
-XIAO ESP32-C3,1,$4.99,$4.99,seeed studio
-0.96 OLED,1,$2.78,$2.78,Aliexpress
-MPU6050,1,$2.10,$2.10,	Aliexpress
-DHT11,1,$1.05,$1.05,	Aliexpress
-MX Switches,4,$0.05,$0.20,Aliexpress
-Keycaps,1,$0.01,$0.01,	Aliexpress
-10k Resistor,1,$0.05,$0.05,Amazon
-PCB,1,$9.20,$9.20,jlcpcb
-passive piezo buzzer,1,$0.64,$0.64,	aliexpress
+| Part | Qty | Unit | Total | Vendor |
+|:-----|----:|-----:|------:|:-------|
+| XIAO ESP32-C3 | 1 | $4.99 | $4.99 | Seeed Studio |
+| 0.96" OLED | 1 | $2.78 | $2.78 | AliExpress |
+| MPU6050 | 1 | $2.10 | $2.10 | AliExpress |
+| DHT11 | 1 | $1.05 | $1.05 | AliExpress |
+| MX Switches | 4 | $0.05 | $0.20 | AliExpress |
+| Keycaps | 1 | $0.01 | $0.01 | AliExpress |
+| 10k Resistor | 1 | $0.05 | $0.05 | Amazon |
+| PCB | 1 | $9.20 | $9.20 | JLCPCB |
+| Passive piezo buzzer | 1 | $0.64 | $0.64 | AliExpress |
+| **Total** | | | **$21.02** | |
