@@ -1,4 +1,4 @@
-[BOM.csv](https://github.com/user-attachments/files/33997747/BOM.csv)## Starbie
+## Starbie
 A tiny motion-controlled digital pet, built for HackClub Halflife because I really want a 3D printer and also because I want to get better at electronics since I am an absolute noob.
 I added a buzzer so that twinkle twinkle little star plays when the sprite is napping. I also added a rain animation when the humidity is greater than a certain threshold. We'll see if that works. 
 
@@ -34,7 +34,9 @@ This starbie has a display with a sprite. The sprite has 3 values: joy, energy, 
 4. Building + Uploading Firmware. I haven't gotten to this step yet, but I am pretty sure that you connect a USB cable from the ESP-32 to your computer. Then, in the Arduino IDE, you can verify the code with the check button, and then upload it with the arrow pointing right button. As for assembling the PCB, it will probably have some soldering involved, which I don't know how to do yet because I am an absolute beginner at PCBs. 
 
 ## BOM
-[UploadingPart,	Qty,	Unit,Total,	Vendor
+[BOM.csv](https://github.com/user-attachments/files/33997758/BOM.csv)
+
+Part,	Qty,	Unit,Total,	Vendor
 XIAO ESP32-C3,1,$4.99,$4.99,seeed studio
 0.96 OLED,1,$2.78,$2.78,Aliexpress
 MPU6050,1,$2.10,$2.10,	Aliexpress
@@ -43,5 +45,4 @@ MX Switches,4,$0.05,$0.20,Aliexpress
 Keycaps,1,$0.01,$0.01,	Aliexpress
 10k Resistor,1,$0.05,$0.05,Amazon
 PCB,1,$9.20,$9.20,jlcpcb
-passive piezo buzzer,1,$0.64,$0.64,	aliexpress BOM.csv…]()
-
+passive piezo buzzer,1,$0.64,$0.64,	aliexpress
