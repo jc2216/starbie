@@ -23,9 +23,9 @@ This starbie has a display with a sprite. The sprite has 3 values: joy, energy, 
 
 2. PCB routing. This was really annoying to do since there were some cases when I did half of the routing, but the other half was impossible to do, so I had to do it all over again. I also had to redo the PCB routing when I added the buzzer, so that was really annoying, too. Some things I learned are vias, which allow you to switch between the front and back copper layer, and ground pours, which you could draw by adding a board outline. The layout was done similar to the guide, which I assume tried to minimize the rat's nest. 
 
-   <img width="686" height="445" alt="Screenshot 2026-10-11 at 2 21 29 AM" src="https://github.com/user-attachments/assets/29db1449-9d8d-4267-9938-bcdd2f5bfb9f" />
+<img width="661" height="435" alt="Screenshot 2026-11-11 at 12 40 26 AM" src="https://github.com/user-attachments/assets/a0ded84d-3670-4469-902d-47c83309b4bd" />
 
-   <img width="881" height="497" alt="Screenshot 2026-10-11 at 2 21 41 AM" src="https://github.com/user-attachments/assets/aa6cb764-304f-4fb7-a7c9-ded4167f3668" />
+<img width="746" height="439" alt="Screenshot 2026-11-11 at 12 40 34 AM" src="https://github.com/user-attachments/assets/df5ec883-d37a-4826-9c28-6b5d31eacd3d" />
 
 3. Firmware! I added sparkles like in the guide, and I also created my own sprite using Clip Studio Paint. Some new features that I have added to the firmware is a rain animation when the humidity that the Environment Sensor detects is over a certain amount and a buzzer that plays twinkle twinkle little star when the sprite is napping. I had a pitches.h file that I copy pasted from somewhere since it just contained the default values for each note, and I also had a rain_frames.h file that I got from oledanimationmaker. In my main code, I had an array containing the notes and a parallel array containing the durations that correspond to each note. 
 
